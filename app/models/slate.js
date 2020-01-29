@@ -1,6 +1,6 @@
 const mongoose = require('mongoose')
 
-const storySchema = new mongoose.Schema(
+const slateSchema = new mongoose.Schema(
   {
     title: {
       type: String,
@@ -21,4 +21,4 @@ const storySchema = new mongoose.Schema(
   }
 )
 
-module.exports = mongoose.model('Story', storySchema)
+module.exports = mongoose.model('Slate', slateSchema)
